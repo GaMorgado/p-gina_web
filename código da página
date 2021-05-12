@@ -1,0 +1,556 @@
+Home da página
+
+
+<!DOCTYPE html>
+  <html leng="pt-br">
+
+  		<header>
+  			<meta charset="UTF-8">
+  			<meta name="viewport" content="width=device-width">
+  			<title> Home - Barbearia do seu Luiz </title>
+  			<link rel="stylesheet" href="reset.css">
+  			
+  			<link rel="stylesheet" href="style.css">		
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+     </header>
+  		<body>
+  			<header>
+  				<div class="caixa">
+	  				<h1><img src="logo.png" alt="Logo da Barbearia"></h1>
+			  			<nav>
+			  				<ul class="Opções">
+			  					<li><a href="index_certo.html">Home</a></li>
+			  					<li><a href="produtos.html">Produtos</a></li>
+			  					<li><a href="contato.html">Contatos</a></li>
+			  				</ul>
+			  		   </nav>
+		  		 </div>
+  			</header>
+
+  				<img id="banner" src="banner.jpg">
+
+			<main>
+					<section class="principal"> 
+							<h2 class="titulo-principal">Sobre a Barbearia do seu Luiz</h2>
+
+							<img class="utensilios" src="utensilios.jpg" alt="utensilio de barbeiro.">
+
+							<p>Localizada no coração da cidade a <strong>Barbearia do seu Luiz</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+							<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+
+							<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+						</section>
+
+						<section class="mapa">
+							<h3 class="titulo-principal">Nosso estabelecimento</h3>
+							<p>Nosso estabelecimento está no coração da cidade</p>
+
+							<div class="mapa-conteudo">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.175371389676!2d-46.66748362089849!3d-23.588244300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1620496379234!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</section>
+
+				<section class="Benefícios">
+					<h3 class="titulo-principal">Benefícios:</h3>
+
+						<div class="conteudo-beneficio">
+							<ul class="informações">
+								<li class="itens">Atendimento ao cliente</li>
+								<li class="itens">Espaço diferenciado</li>
+								<li class="itens">Localização</li>
+								<li class="itens">Limpeza</li>
+								<li class="itens">Pontualidade</li>
+								<li class="itens">Proficionais qualificados</li>
+							</ul><img src="Beneficios.jpg" class="imagemBeneficio">
+					</div>
+
+					<div class="video">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+			</section>
+		</main>
+
+		<footer>
+			<img src="logo-branco.png">
+  			<p class="Copyright">&copy; Copyright Barbearia do seu Luiz - 2021</p>
+		</footer>
+	</body>
+</html>
+
+Contato da loja 
+
+<!DOCTYPE html>
+  <html leng="pt-br">
+
+  		<header>
+  			<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+  			<title> Contato - Barbearia do seu Luiz </title>
+  			<link rel="stylesheet" href="reset.css">
+  			
+  			<link rel="stylesheet" href="style.css">
+  		</header>
+  		<body>
+  			<header>
+  				<div class="caixa">
+	  				<h1><img src="logo.png" alt="Logo da Barbearia"></h1>
+			  			<nav>
+			  				<ul>
+			  					<li><a href="index_certo.html">Home</a></li>
+			  					<li><a href="produtos.html">Produtos</a></li>
+			  					<li><a href="contato.html">Contatos</a></li>
+			  				</ul>
+			  		   </nav>
+		  		 </div>
+  			</header>
+        <main class="main-contato">
+          <form>
+
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Ex: João da Silva">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@domínio.com">
+
+            <label for="telefone">Telefone:</label class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"> 
+
+            <label for="resposta">Mensagem</label>
+            <textarea cols="70" rows="10" id="resposta"></textarea class="input-padrao">
+
+            <fieldset>
+              <legend>Como prefere nosso contato?</legend>
+              <label for="email-radio"><input type="radio" name="contato" value="email" id="email-radio">Email</label>
+              
+              <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+              <label for="Whatsapp-radio"><input type="radio" name="contato" value="mensagem" id="Whatsapp-radio" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Qual horário prefere ser atendido?</legend>
+              <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades por email?</label>
+
+
+           <input type="submit" value="Enviar formulário" class="enviar">
+          </form>
+
+          <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr> 
+              </thead>
+              <tbody>
+              <tr>
+                  <td>Segunda</td>
+                  <td>8h ~ 20h</td>
+              </tr> 
+              <tr>
+                  <td>Quarta</td>
+                  <td>8h ~ 20h</td>
+              </tr> 
+              <tr>
+                  <td>Sexta</td>
+                  <td>8h ~ 20h</td>
+              </tr> 
+           </tbody>
+          </table>
+
+        </main>
+
+        <footer>
+          <img src="logo-branco.png" alt="Logo da Barbearia">
+          <p class="Copyright">&copy; Copyright Barbearia do seu Luiz - 2021</p>
+        </footer>
+      </body>
+</html>
+
+
+Produto da loja
+
+<!DOCTYPE html>
+  <html leng="pt-br">
+
+  		<header>
+  			<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+  			<title> Contato - Barbearia do seu Luiz </title>
+  			<link rel="stylesheet" href="reset.css">
+  			
+  			<link rel="stylesheet" href="style.css">
+  		</header>
+  		<body>
+  			<header>
+  				<div class="caixa">
+	  				<h1><img src="logo.png" alt="Logo da Barbearia"></h1>
+			  			<nav>
+			  				<ul>
+			  					<li><a href="index_certo.html">Home</a></li>
+			  					<li><a href="produtos.html">Produtos</a></li>
+			  					<li><a href="contato.html">Contatos</a></li>
+			  				</ul>
+			  		   </nav>
+		  		 </div>
+  			</header>
+        <main class="main-contato">
+          <form>
+
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Ex: João da Silva">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@domínio.com">
+
+            <label for="telefone">Telefone:</label class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"> 
+
+            <label for="resposta">Mensagem</label>
+            <textarea cols="70" rows="10" id="resposta"></textarea class="input-padrao">
+
+            <fieldset>
+              <legend>Como prefere nosso contato?</legend>
+              <label for="email-radio"><input type="radio" name="contato" value="email" id="email-radio">Email</label>
+              
+              <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+              <label for="Whatsapp-radio"><input type="radio" name="contato" value="mensagem" id="Whatsapp-radio" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Qual horário prefere ser atendido?</legend>
+              <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades por email?</label>
+
+
+           <input type="submit" value="Enviar formulário" class="enviar">
+          </form>
+
+          <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr> 
+              </thead>
+              <tbody>
+              <tr>
+                  <td>Segunda</td>
+                  <td>8h ~ 20h</td>
+              </tr> 
+              <tr>
+                  <td>Quarta</td>
+                  <td>8h ~ 20h</td>
+              </tr> 
+              <tr>
+                  <td>Sexta</td>
+                  <td>8h ~ 20h</td>
+              </tr> 
+           </tbody>
+          </table>
+
+        </main>
+
+        <footer>
+          <img src="logo-branco.png" alt="Logo da Barbearia">
+          <p class="Copyright">&copy; Copyright Barbearia do seu Luiz - 2021</p>
+        </footer>
+      </body>
+</html>
+
+
+css da loja
+
+
+	body{
+		font-family: 'Montserrat', sans-serif;
+}
+
+	header{
+		background: #BBBBBB;
+		padding:20px 0;
+}	
+	
+	.caixa{
+		position:relative;
+		width: 940px;
+		margin: 0 auto;
+}
+
+	nav{
+		position: absolute;
+		top: 110px;
+		right: 0;
+}
+
+	nav li{
+		display: inline;
+		margin: 0 0 0 15px;
+
+}		
+	
+	nav a{
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		font-size: 22px;
+		text-decoration: none;
+}
+	
+	nav a:hover{
+		color: #C78C19;
+		text-decoration:underline;
+
+}
+
+	.produtos{
+		width: 940px;
+		margin:0 auto;
+		padding:50px 0;
+}
+	
+	.produtos li{
+		display:inline-block;
+		text-align:center;
+		width: 30%;
+		vertical-align: top;
+		margin:0 1.5%;
+		padding: 30px 20px;
+		box-sizing: border-box;  
+		border: 2px solid #000000;
+		border-radius:20px;
+}
+	.produtos li:hover{
+		border-color: #C78C19;
+		font-size: 40px;
+}
+	.produtos li:active{
+		border-color:#088C19;
+}
+	.produtos li:hover h2{
+		font-size:34px;
+}
+
+	.produtos h2{
+		font-size: 30px;
+		font-weight: bold;
+}
+
+	.descrição{
+		font-size:18px;
+}
+
+	.preço{
+		font-size:22px;
+		font-weight:bold;
+		margin: 10px 0 0;
+}
+
+	footer{
+		text-align: center;
+		background: url("bg.jpg");
+		padding: 40px 0;
+}
+
+	.Copyright{
+		color: #FFFFFF;
+		font-size: 13px;
+		margin-top: 20px;
+}
+
+	form{
+		margin: 40px 0;
+}
+	
+	.main-contato{
+		width: auto;
+        text-align: center;
+}	
+	form label, form legend{
+		display: block;
+		font-size: 20px;
+		margin-bottom: 10px;
+}
+
+	.input-padrao{
+		display:block;
+		padding: 10px 25px;
+		text-align: center;
+        width: auto;
+        margin: 20px auto;
+}
+
+	.checkbox{
+		margin:20px 0;
+}
+
+	.enviar{
+		width: 40%;
+		padding:15px 0;
+		background: orange;
+		color:white;
+		font-size:18px;
+		font-weight:bold;
+		border:none;
+		border-radius: 5px;
+		transition: 1s all;
+		cursor:pointer;
+}
+	
+	.enviar:hover{
+		background: darkorange;
+		transform: scale(1.2)
+}
+	table{
+		text-align: center;
+        transform: scale(1);
+        position: static;
+        margin: 20px auto;
+}
+
+	thead{
+		background: #555555; 
+		color:white;
+		font-weight: bold;
+}
+
+	td, th{
+		border:1px solid #000000;
+		padding:8px 15px;
+}
+
+	@media screen and (max-width: 480px){
+		.caixa,.main-contato{
+			width: auto;
+		}
+}
+
+/*css da pagina inicial*/
+
+	#banner{
+		width:100%;
+}	
+	
+	.titulo-principal{
+		text-align:center;
+		font-size: 2em;
+		margin: 0 0 1em;
+		clear: left;
+}
+	
+	.principal{
+		padding: 3em 0;
+		background:#FEFEFE;
+		width:940px;
+		margin: 0 auto;
+}
+	
+	.principal p {
+		margin: 0 0 1em;
+}
+
+	.principal strong{
+		font-weight: bold;
+}
+	
+	.principal em{
+		font-style: italic;
+}
+	
+	.utensilios{
+		width: 120px;
+		float: left;
+		margin: 0 20px 20px 0; 
+}
+
+	.mapa{
+		padding: 3em 0;
+		background: linear-gradient(#FEFEFE, #888888);
+}
+
+	.mapa-conteudo{
+		width:940px;
+		margin: 0 auto;
+		
+}
+
+	.mapa p{
+		margin: 0 0 2em;
+		text-align: center;
+}
+
+	.Benefícios{
+		padding: 3em 0;
+		background: #888888;
+}
+
+	.conteudo-beneficio{
+		width: 640px;
+		margin: 0 auto;
+}
+	.informações{
+		width:40%;
+		display:inline-block;
+		vertical-align: top;
+}
+
+	.itens{
+		line-height: 1.5;
+}
+	
+	.itens:first-child {
+ 	   font-weight: bold;
+}
+
+	.itens:before{
+		content:"★";
+}
+
+	.imagemBeneficio{
+		width: 60%;
+		opacity: 1;
+		transition: 400ms;
+		box-shadow: 10px 10px 10px 0 #000000;
+}
+
+	.imagemBeneficio:hover{
+		opacity: 0.3;
+}
+
+	.video{
+		width: 560px;
+		margin: 2em auto;
+}
+
+	@media screen and (max-width: 480px){
+		.caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .video{
+			width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.iformações, .imagemBeneficio{
+		width: 100%;
+	}
+}
